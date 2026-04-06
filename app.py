@@ -7,9 +7,6 @@ import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords', quiet=True)
 
-import subprocess
-subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"], 
-               capture_output=True)
 
 import spacy
 from docx import Document
