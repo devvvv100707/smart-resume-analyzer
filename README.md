@@ -1,4 +1,4 @@
-## Smart Resume Analyzer  
+## Smart Resume Analyzer
 ## AI-powered Resume Screening using NLP + Streamlit  
 
 A smart **NLP-based resume screening system** that compares a candidate’s resume with a job description and calculates how well they match.
@@ -17,7 +17,6 @@ this makes it useful for:
   - students improving resumes
   - job seekers optimizing ATS scores
   - beginners learning NLP projects
-  - ML portfolios
 
 ---
 ## Features
