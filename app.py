@@ -8,6 +8,8 @@ from docx import Document
 import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords', quiet=True)
+import subprocess
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 nlp = spacy.load("en_core_web_sm")
 
 # Words that are never useful as skills
